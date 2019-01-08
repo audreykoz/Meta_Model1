@@ -1,0 +1,18 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Zoo of things"
+    id="c551d53d-43d7-4424-a62c-9de6fd28f919">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="03371713-f0d5-45a7-9130-4cc02da68bb9">
+    <bounds
+        x="600"
+        y="252"
+        width="169"
+        height="145"/>
+    <archimateElement
+        xsi:type="archimate:Contract"
+        href="Contract_a65f17f0-5a10-4994-b80c-5abf7dfd2bcb.xml#a65f17f0-5a10-4994-b80c-5abf7dfd2bcb"/>
+  </children>
+</archimate:ArchimateDiagramModel>
