@@ -1,0 +1,12 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Purge"
+    id="ea9a5d46-8968-4f08-a821-df95d73df6ba">
+  <source
+      xsi:type="archimate:ApplicationProcess"
+      href="ApplicationProcess_f5bd81f6-645b-4b52-8075-371d45ab86b2.xml#f5bd81f6-645b-4b52-8075-371d45ab86b2"/>
+  <target
+      xsi:type="archimate:Artifact"
+      href="Artifact_cb31c6dc-1950-4b3d-8da1-1203b8c0067c.xml#cb31c6dc-1950-4b3d-8da1-1203b8c0067c"/>
+</archimate:AccessRelationship>

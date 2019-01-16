@@ -1,0 +1,41 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Files Bouond to Logical Storage Units (View)"
+    id="73b3dd34-6476-419a-b253-e487b765118c"
+    documentation="An assignment relationship is used to bind a kind of file to a logical storage unit. &#xA;&#xA;The artifact is used to represent a kind of file and a node is used to represent a logical storage unit. &#xA;&#xA;Improvements:&#xA;-It should be possible to identify that a node is a logical storage unit by query and by software. &#xA;-It should be possible to identify that an artifact is a file by query and by software. &#xA;-It should be possible to add qualities to the kind of logical storage unit. ">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="8658f2d0-220e-443a-b7e1-86ab8352bcea">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="cb2c7f65-a9b7-4642-8fb2-7e9df3d6ecee"
+        source="8658f2d0-220e-443a-b7e1-86ab8352bcea"
+        target="3e20254e-4470-4a3f-9ad0-90503bbe9aad">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_3e0e0438-5a54-4306-85c1-6b575436a850.xml#3e0e0438-5a54-4306-85c1-6b575436a850"/>
+    </sourceConnections>
+    <bounds
+        x="912"
+        y="492"
+        width="120"
+        height="133"/>
+    <archimateElement
+        xsi:type="archimate:Node"
+        href="Node_a0bfb97e-3804-4fcb-a4e3-dcdec7917384.xml#a0bfb97e-3804-4fcb-a4e3-dcdec7917384"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="3e20254e-4470-4a3f-9ad0-90503bbe9aad"
+      targetConnections="cb2c7f65-a9b7-4642-8fb2-7e9df3d6ecee">
+    <bounds
+        x="911"
+        y="276"
+        width="121"
+        height="133"/>
+    <archimateElement
+        xsi:type="archimate:Artifact"
+        href="Artifact_cb31c6dc-1950-4b3d-8da1-1203b8c0067c.xml#cb31c6dc-1950-4b3d-8da1-1203b8c0067c"/>
+  </children>
+</archimate:ArchimateDiagramModel>

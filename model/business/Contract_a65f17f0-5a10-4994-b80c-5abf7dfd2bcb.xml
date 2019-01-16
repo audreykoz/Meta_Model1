@@ -1,5 +1,5 @@
 <archimate:Contract
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="A Prototype Policy  (Contract)"
+    name="A Prototype Policy (Contract)"
     id="a65f17f0-5a10-4994-b80c-5abf7dfd2bcb"
     documentation="A policy indicates capabilities for decisions to be made by users of the architecture&#xA;&#xA;An example would be the management policy for a cache. Options in the archiver for how to deal with catch-up vs real time data. "/>
