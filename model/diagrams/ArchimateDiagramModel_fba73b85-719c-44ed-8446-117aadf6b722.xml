@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Relationships Between a Data Producing Program and Data Management (View)"
     id="fba73b85-719c-44ed-8446-117aadf6b722"
-    documentation="This drawing illustrates the typical components which describe data managament actions applied to pipeline operations.&#xA;&#xA;-A pipeline is  modeled  as  an application process&#xA;-Input files are modeled as artifacts and connected to the application process by an access relationships explicited labeled as a read and also with the read relationship as access type (pulldown)&#xA;-Files created by a pipeline uses the access relationship to express the relationship  between the application process representing the pipeline and the artifact representing the output file. This is explicitly labeled as create, and the access type is a write type (pulldown)&#xA;-Artifacts representing files are assigned to a logical storage unit using the assignment relationship. &#xA;Note: we need to treat data management process as similar to the pipeline and we need to make like 5 more versions of this. &#xA;">
+    documentation="This drawing illustrates the typical components which describe data managament actions applied to pipeline operations.&#xA;&#xA;-A pipeline is  modeled  as  an application process&#xA;-Input files are modeled as artifacts and connected to the application process by an access relationships explicited labeled as a read and also with the read relationship as access type (pulldown)&#xA;-Files created by a pipeline use the access relationship to express the relationship  between the application process representing the pipeline and the artifact representing the output file. This is explicitly labeled as create, and the access type is a write type (pulldown)&#xA;-Artifacts representing files are assigned to a logical storage unit using the assignment relationship. &#xA;- It is not yet possible to trace copies of files to the retained file by examining the data. It seems possible to improve the semantics. &#xA;- Every data management application process has a policy governing what it does and an event indicating when the process fires. &#xA;- We think the number of times a pipeline process generates a file is a requirement (because they come from the outside). &#xA;Note: requirements probably apply to a plateau &#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="73b383e7-b91a-49c7-a371-6a735320c656">
@@ -261,5 +261,17 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_40c2c92a-81ac-4603-847f-9da902621a36.xml#40c2c92a-81ac-4603-847f-9da902621a36"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="36200b5a-80a8-4488-bd24-dd8cf90829c6">
+    <bounds
+        x="276"
+        y="84"
+        width="181"
+        height="85"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_5a2ca020-d8c7-4fa4-8922-200519057a2b.xml#5a2ca020-d8c7-4fa4-8922-200519057a2b"/>
   </children>
 </archimate:ArchimateDiagramModel>
